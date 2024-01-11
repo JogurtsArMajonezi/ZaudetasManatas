@@ -1,0 +1,14 @@
+body{
+    background-color:#5173b1;
+}
+#page{
+    width: 1320px;
+    height: 1080px;
+    background-color: #75a0c5;
+    margin: 0 auto;
+}
+#top{
+    width: 1320px;
+    height: 290px;
+    background-color: #dbe2ef;
+}
