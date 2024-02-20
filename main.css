@@ -1,6 +1,9 @@
 body{
     background-color:#5173b1;
 }
+h1{
+    font-size: 84px;
+}
 #page{
     width: 1320px;
     height: 1080px;
@@ -11,4 +14,12 @@ body{
     width: 1320px;
     height: 290px;
     background-color: #dbe2ef;
+}
+#virsraksts{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 290px;  
+}
+#pogas{
+    
 }
