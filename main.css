@@ -3,6 +3,7 @@ body{
 }
 h1{
     font-size: 84px;
+    font-family:"Gill-Sans", sans-serif;
 }
 #page{
     width: 1320px;
