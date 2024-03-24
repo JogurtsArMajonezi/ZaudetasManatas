@@ -27,14 +27,24 @@ h1{
     height: 80px;
 }
 .NavButton{
-    width: 300px;
+    width: 330px;
     text-align: center;
     font-size: 16pt;
     line-height: 2.4;
     background-color:rgba(204, 213, 235, 1);
     color: #030C2D;
     float: left;
+    border-radius: 30px;
 }
 .NavButton:hover{
     background-color:#5173b1;
+}
+ul{
+    list-style: none;
+    margin:0px;
+    margin-left:-40px;
+    margin-top: -25px;
+}
+#LoginBox{
+    
 }
