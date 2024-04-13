@@ -5,23 +5,23 @@ h1{
     font-size: 84px;
     font-family:"Gill-Sans", sans-serif;
     color:#030C2D;
+    text-align: center;
+    vertical-align: middle;
 }
 #page{
     width: 1320px;
     height: 1080px;
     background-color: #75a0c5;
     margin: 0 auto;
-    margin-top: 0px;
+    margin-top: -56px;
 }
 #top{
     width: 1320px;
     height: 290px;
     background-color: #dbe2ef;
 }
-#virsraksts{
-    text-align: center;
-    vertical-align: middle;
-    margin-top: 500px; 
+#virsrakstsdiv{
+    padding-top: 50px;
 }
 #navi{
     width: 1320px;
@@ -46,12 +46,27 @@ ul{
     margin-left:-40px;
     margin-top: -25px;
 }
+
+
+/* Login */
 #LoginBox{
     width: 290px;
     height: 300px;
-    margin-top: 30px;
+    margin-top: 5px;
     margin-right: 30px;
     float: right;
     background-color:rgba(81, 115, 177, 1);
     border-radius: 30px;
+    border: 1px solid #000000
+}
+
+
+
+/* Pievienot */
+#PievienotBox{
+    width: 1200px;
+    height: 600px;
+    background-color: #dbe2ef;
+    border-radius: 30px;
+    
 }

@@ -11,10 +11,12 @@
 <body>
 <div id = "page">
     <div id = "top">
-        <h1 id = "virsraksts">PAZAUDĒTAS MANTAS</h1>
+        <div id= "virsrakstsdiv">
+            <h1>PAZAUDĒTAS MANTAS</h1>
+        </div>
     </div>
     <div id = "navi">
-        <ul>
+        <ul id-="UlNav">
             <a href = "index.html"><li class = "NavButton">Sākums</li></a>
             <a href = "saraksts.html"><li class = "NavButton">Mantu saraksts</li></a>
             <a href = "arhivs.html"><li class = "NavButton">Mantu arhīvs</li></a>
@@ -22,7 +24,11 @@
         </ul>
     </div>
     <div id="LoginBox">
-        
+        <form action="proc.php" method="POST">
+            <input onchange ="enableButton()" id="loginName" name="login" class="logininputs" placeholder="login"/>
+            <input onchange ="enableButton()" id="loginPassword"name="password" class="logininputs" placeholder="password"/>
+            <button class="logininputs" type="submit">LOG IN</button>
+        </form>
     </div>
 </div>
 </body>
