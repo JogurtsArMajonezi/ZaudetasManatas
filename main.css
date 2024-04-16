@@ -59,14 +59,28 @@ ul{
     border-radius: 30px;
     border: 1px solid #000000
 }
+.logininputs{
+    margin-left: 55px;
+    margin-top: 50px
+}
 
+/* Register1 */
+#RegisterBackground{
+    background-color: #3E3E3E;
 
+}
 
 /* Pievienot */
 #PievienotBox{
-    width: 1200px;
-    height: 600px;
+    width: 200px;
+    height: 260px;
     background-color: #dbe2ef;
     border-radius: 30px;
-    
+    margin-left: 555px;
+    margin-top: 5px;
+}
+.PievienotInput{
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 0px;
 }
