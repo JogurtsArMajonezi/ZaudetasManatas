@@ -48,7 +48,10 @@ ul{
 }
 
 /* index teksts */
-
+#IndexGuide{
+    margin-left: 20px;
+    width: 1000px;
+}
 
 /* Login */
 #LoginBox{
