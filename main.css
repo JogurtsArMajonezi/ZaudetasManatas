@@ -47,6 +47,8 @@ ul{
     margin-top: -25px;
 }
 
+/* index teksts */
+
 
 /* Login */
 #LoginBox{
@@ -67,7 +69,18 @@ ul{
 /* Register1 */
 #RegisterBackground{
     background-color: #3E3E3E;
-
+}
+#Register1Box{
+    background-color:#5173b1;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin:auto;
+    margin-top: 300px
+}
+#Register1Buttons{
+    margin-left: 35px;
+    width: 200px;
 }
 
 /* Pievienot */
